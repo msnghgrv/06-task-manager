@@ -37,7 +37,7 @@ app.get('/', (req,res)=>{
 })
 
 
-const port= 1000|| process.env.PORT
+const port= process.env.PORT || 1000 
 const start= async()=>{
   try {
     await connectDB(process.env.MONGO_URI)
