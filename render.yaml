@@ -1,4 +1,1 @@
-env:
-  - key: MONGODB_URI
-    value: "mongodb+srv://amsinghgaurav:Imgaurav20.@cluster0.kpnwzkh.mongodb.net/06-JOBS-API"
 buildCommand: npm install && npm run build
